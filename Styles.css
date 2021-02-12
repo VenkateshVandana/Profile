@@ -1,0 +1,109 @@
+@font-face {
+
+ font-family: 'DS';
+ src: url(DS.ttf);
+}
+
+@font-face {
+  font-family: 'OS';
+  src: url(OpenSans-Regular.ttf);
+
+}
+
+*{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+.top-container {
+background-color: #dee2ff;
+}
+
+.top-container span{
+text-decoration: underline;
+}
+h1{
+font-family: DS;
+font-size: 5.625rem;
+color: #66BFBF;
+}
+
+h2{
+font-family: OS;
+font-size: 1.5rem;
+color: #66BFBF;
+}
+
+.top-container h2 {
+font-weight: normal;
+}
+
+h3{
+color: #11999E;
+}
+.top-container{
+position: relative;
+}
+hr {
+    width: 10%;
+    margin: 20px auto 20px auto;
+    border-top-style: dotted;
+}
+.profile img {
+    border-radius: 50%;
+}
+.skills{
+margin-top: 10px;
+}
+.skill-row {
+width: 50%;
+margin: auto;
+position: relative;
+left: -4.1rem;
+height: 12rem;
+
+}
+
+.skills img {
+  width: 25%;
+  display: inline block;
+  position: relative;
+  right: 15.5rem;
+  border-radius: 50%;
+  
+}
+
+.skills-content{
+    text-align: left;
+    position: relative;
+    right: -12rem;
+    bottom: 9rem;
+    width: 70%;
+}
+
+
+
+.bottom-cloud{
+position: absolute;
+left: 300px;
+bottom: 250px;
+}
+
+.top-cloud{
+position: absolute;
+Right: 300px;
+top: 50px;
+}
+.contact-me {
+    line-height: 30px;
+}
+.bottom-container {
+    padding: 5px;
+	background-color: #f2f3f5;
+}
+.middle-container{
+ background-repeat: no-repeat;
+ background-image: url("Bg1.jpg");
+ background-size: cover;
+}
